@@ -1,0 +1,160 @@
+/* ----- 共通設定 -----*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.5px;
+}
+
+img{
+    display: block;
+}
+
+/* ----- mv-areaクラス -----*/
+.logo{
+    float: left;
+}
+
+/* ----- mv-areaクラス -----*/
+header img{
+    width: 170px;
+    margin: 0 auto;
+}
+
+.mv-area img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.text {
+    font-size: 55px;
+    color: #ff6e00;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+/* ----- section_1クラス -----*/
+.section_1 h2 {
+    color: #fff;
+    
+}
+
+.application{
+    background-color: #
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- セクション共通 -----*/
+section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+section:nth-of-type(1) {
+    background-color: #dec200;
+}
+
+section:nth-of-type(2) {
+    background-color: #3eb6bd;
+}
+
+section:nth-of-type(3) {
+    background-color: #3d5a6d;
+}
+
+.section-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/* ----- LIST -----*/
+ol li {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* ----- TABLE -----*/
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 0;
+    background: #fff;
+}
+
+th,td {
+    padding: 1em;
+    border: 1px solid #3d5a6d;
+    color: #3d5a6d;
+}
+
+th {
+    background-color: #bfe1f6;
+}
+
+/* ----- FORM -----*/
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form dt {
+    margin-bottom: 20px;
+}
+
+form dt, form label{
+    color: #fff;
+}
+
+form dt:before {
+    content: "■"
+    margin-right: 10px;
+}
+
+form dd {
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border: none;
+}
+
+input[type="radio"] {
+    width: 1em;
+    margin-left: 24px;
+    margin-right: 4px;
+}
+
+button[type="submit"] {
+    background-color: #3eb6bd;
+    margin: 40px auto 0;
+    display: block;
+    width: 70%;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-img-area img {
+    width: 100%;
+}
